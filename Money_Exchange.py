@@ -4,7 +4,7 @@ def exchange(pesos_type, value_usd):
     pesos = usd / value_usd
     pesos = round(pesos, 2)
     pesos = str(pesos)
-    print("You currently have $" + pesos )
+    print("You currently have $" + pesos + " " + pesos_type)
 menu = """
 Welcome to the Money Exchange 💲
 
