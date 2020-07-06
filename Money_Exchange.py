@@ -1,7 +1,7 @@
-def exchange(pesos_type, value_usd):
+def exchange(pesos_type, value_pesos):
     usd = input("How many USD you want to exchange? ")
     usd = float(usd)
-    pesos = usd / value_usd
+    pesos = usd / value_pesos
     pesos = round(pesos, 2)
     pesos = str(pesos)
     print("You currently have $" + pesos + " " + pesos_type)
